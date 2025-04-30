@@ -266,7 +266,8 @@ if (a==0){
 			<EmbeddedIcon>false</EmbeddedIcon>
 			<TextColor/>
 			<Enabled>true</Enabled>
-			<ActionCode>traceln(!bool3);</ActionCode>
+			<ActionCode>traceln(!bool3);
+</ActionCode>
 		</BasicProperties>
 		<ExtendedProperties>
 			<Font Name="Dialog" Size="11" Style="0"/>
