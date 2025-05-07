@@ -362,4 +362,82 @@ traceln(result);</ActionCode>
 			<LabelText>fact for</LabelText>
 		</ExtendedProperties>
 	</Control>
+	<Control Type="EditBox">
+		<EmbeddedIcon>false</EmbeddedIcon>
+		<Id>1746633337522</Id>
+		<Name><![CDATA[editbox5]]></Name>
+		<X>280</X>
+		<Y>520</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<BasicProperties Width="100" Height="30">
+			<EmbeddedIcon>false</EmbeddedIcon>
+			<FillColor/>
+			<TextColor/>
+			<Enabled>true</Enabled>
+		</BasicProperties>
+		<ExtendedProperties>
+			<Font Name="Dialog" Size="11" Style="0"/>
+			<LinkTo>true</LinkTo>
+			<Link>k</Link>
+		</ExtendedProperties>
+	</Control>
+	<Control Type="Button">
+		<EmbeddedIcon>false</EmbeddedIcon>
+		<Id>1746633356648</Id>
+		<Name><![CDATA[button6]]></Name>
+		<X>560</X>
+		<Y>480</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<BasicProperties Width="100" Height="30">
+			<EmbeddedIcon>false</EmbeddedIcon>
+			<TextColor/>
+			<Enabled>true</Enabled>
+			<ActionCode>double result=factoril(n)/(factoril(k)*(factoril(n-k)));
+traceln(result);</ActionCode>
+		</BasicProperties>
+		<ExtendedProperties>
+			<Font Name="Dialog" Size="11" Style="0"/>
+			<LabelText>tarkib</LabelText>
+		</ExtendedProperties>
+	</Control>
+	<Control Type="EditBox">
+		<EmbeddedIcon>false</EmbeddedIcon>
+		<Id>1746633597040</Id>
+		<Name><![CDATA[editbox6]]></Name>
+		<X>280</X>
+		<Y>440</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<BasicProperties Width="100" Height="30">
+			<EmbeddedIcon>false</EmbeddedIcon>
+			<FillColor/>
+			<TextColor/>
+			<Enabled>true</Enabled>
+		</BasicProperties>
+		<ExtendedProperties>
+			<Font Name="Dialog" Size="11" Style="0"/>
+			<LinkTo>true</LinkTo>
+			<Link>n</Link>
+		</ExtendedProperties>
+	</Control>
 </Presentation>
