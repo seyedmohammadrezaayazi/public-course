@@ -989,4 +989,36 @@
 			<LabelText>multi enter</LabelText>
 		</ExtendedProperties>
 	</Control>
+	<Control Type="Window3D">
+		<Id>1747239557037</Id>
+		<Name><![CDATA[window3d]]></Name>
+		<X>1260</X>
+		<Y>480</Y>
+		<Width>660</Width>
+		<Height>460</Height>
+		<MakeDefaultViewArea>true</MakeDefaultViewArea>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<ShowLabel>false</ShowLabel>
+		<FollowCamera>false</FollowCamera>
+		<NavigationType>full</NavigationType>
+		<FarClippingDistance>2000</FarClippingDistance>
+		<Camera>camera</Camera>
+	</Control>
+	<Camera3D>
+		<Id>1747239564093</Id>
+		<Name><![CDATA[camera]]></Name>
+		<X>176.26</X>
+		<Y>831.51</Y>
+		<Z>369.29</Z>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<ShowLabel>false</ShowLabel>
+		<RotationX>33.27</RotationX>
+		<RotationZ>-35.78</RotationZ>
+	</Camera3D>
 </Presentation>
