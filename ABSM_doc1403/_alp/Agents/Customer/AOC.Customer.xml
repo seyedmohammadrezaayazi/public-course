@@ -127,7 +127,9 @@ moveTo(main.store);</EntryAction>
 			<PresentationFlag>true</PresentationFlag>
 			<ShowLabel>false</ShowLabel>
 			<Properties>
-				<Action>deleteSelf();</Action>
+				<Action>double secondTime=time()-firstTime;
+main.dataTime.add(secondTime);
+deleteSelf();</Action>
 			</Properties>
 		</StatechartElement>
 		<StatechartElement Class="State" ParentState="ROOT_NODE">
@@ -143,6 +145,7 @@ moveTo(main.store);</EntryAction>
 			<PresentationFlag>true</PresentationFlag>
 			<ShowLabel>true</ShowLabel>
 			<Properties Width="100" Height="30">
+				<EntryAction>firstTime=time();</EntryAction>
 				<FillColor/>
 			</Properties>
 		</StatechartElement>
@@ -191,6 +194,7 @@ moveTo(main.store);</EntryAction>
 			<ShowLabel>true</ShowLabel>
 			<Properties Width="100" Height="30">
 				<EntryAction>moveTo(main.out);</EntryAction>
+				<ExitAction>main.noPayment++;</ExitAction>
 				<FillColor/>
 			</Properties>
 		</StatechartElement>
@@ -207,6 +211,7 @@ moveTo(main.store);</EntryAction>
 			<PresentationFlag>true</PresentationFlag>
 			<ShowLabel>true</ShowLabel>
 			<Properties Width="100" Height="30">
+				<EntryAction>main.payment++;</EntryAction>
 				<FillColor/>
 			</Properties>
 		</StatechartElement>
