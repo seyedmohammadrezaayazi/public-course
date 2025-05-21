@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Variables>
+	<Variable Class="PlainVariable">
+		<Id>1747843576942</Id>
+		<Name><![CDATA[f1]]></Name>
+		<X>50</X>
+		<Y>150</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<Properties SaveInSnapshot="true"
+              Constant="false"
+              AccessType="public"
+              StaticVariable="false">
+			<Type><![CDATA[boolean]]></Type>
+			<InitialValue Class="CodeValue">
+				<Code><![CDATA[randomTrue(0.7)]]></Code>
+			</InitialValue>
+		</Properties>
+	</Variable>
+	<Variable Class="PlainVariable">
+		<Id>1747843581431</Id>
+		<Name><![CDATA[f2]]></Name>
+		<X>50</X>
+		<Y>250</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<Properties SaveInSnapshot="true"
+              Constant="false"
+              AccessType="public"
+              StaticVariable="false">
+			<Type><![CDATA[boolean]]></Type>
+			<InitialValue Class="CodeValue">
+				<Code><![CDATA[randomTrue(0.3)]]></Code>
+			</InitialValue>
+		</Properties>
+	</Variable>
+	<Variable Class="PlainVariable">
+		<Id>1747843607870</Id>
+		<Name><![CDATA[f3]]></Name>
+		<X>50</X>
+		<Y>350</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<Properties SaveInSnapshot="true"
+              Constant="false"
+              AccessType="public"
+              StaticVariable="false">
+			<Type><![CDATA[boolean]]></Type>
+			<InitialValue Class="CodeValue">
+				<Code><![CDATA[randomTrue(0.1)]]></Code>
+			</InitialValue>
+		</Properties>
+	</Variable>
+</Variables>
