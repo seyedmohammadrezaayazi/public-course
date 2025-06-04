@@ -1,49 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Connectors>
 	<Connector>
-		<Id>1749044327070</Id>
-		<Name><![CDATA[connector]]></Name>
-		<X>520</X>
-		<Y>390</Y>
-		<Label>
-			<X>10</X>
-			<Y>0</Y>
-		</Label>
-		<PublicFlag>false</PublicFlag>
-		<PresentationFlag>true</PresentationFlag>
-		<ShowLabel>false</ShowLabel>
-		<SourceEmbeddedObjectReference>
-			<PackageName>bank_doc1403</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>selectOutput</ItemName>
-		</SourceEmbeddedObjectReference>
-		<SourceConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>SelectOutput</ClassName>
-			<ItemName>in</ItemName>
-		</SourceConnectableItemReference>
-		<TargetEmbeddedObjectReference>
-			<PackageName>bank_doc1403</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>source</ItemName>
-		</TargetEmbeddedObjectReference>
-		<TargetConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>Source</ClassName>
-			<ItemName>out</ItemName>
-		</TargetConnectableItemReference>
-		<Points>
-			<Point>
-				<X>0</X>
-				<Y>0</Y>
-			</Point>
-			<Point>
-				<X>-170</X>
-				<Y>0</Y>
-			</Point>
-		</Points>
-	</Connector>
-	<Connector>
 		<Id>1749044341991</Id>
 		<Name><![CDATA[connector1]]></Name>
 		<X>1060</X>
@@ -132,7 +89,7 @@
 	<Connector>
 		<Id>1749045223375</Id>
 		<Name><![CDATA[connector3]]></Name>
-		<X>540</X>
+		<X>480</X>
 		<Y>390</Y>
 		<Label>
 			<X>10</X>
@@ -144,12 +101,12 @@
 		<SourceEmbeddedObjectReference>
 			<PackageName>bank_doc1403</PackageName>
 			<ClassName>Main</ClassName>
-			<ItemName>selectOutput</ItemName>
+			<ItemName>selectOutput5</ItemName>
 		</SourceEmbeddedObjectReference>
 		<SourceConnectableItemReference>
 			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>SelectOutput</ClassName>
-			<ItemName>outT</ItemName>
+			<ClassName>SelectOutput5</ClassName>
+			<ItemName>out1</ItemName>
 		</SourceConnectableItemReference>
 		<TargetEmbeddedObjectReference>
 			<PackageName>bank_doc1403</PackageName>
@@ -167,63 +124,16 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>180</X>
+				<X>240</X>
 				<Y>0</Y>
-			</Point>
-		</Points>
-	</Connector>
-	<Connector>
-		<Id>1749045452395</Id>
-		<Name><![CDATA[connector4]]></Name>
-		<X>530</X>
-		<Y>400</Y>
-		<Label>
-			<X>10</X>
-			<Y>0</Y>
-		</Label>
-		<PublicFlag>false</PublicFlag>
-		<PresentationFlag>true</PresentationFlag>
-		<ShowLabel>false</ShowLabel>
-		<SourceEmbeddedObjectReference>
-			<PackageName>bank_doc1403</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>selectOutput</ItemName>
-		</SourceEmbeddedObjectReference>
-		<SourceConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>SelectOutput</ClassName>
-			<ItemName>outF</ItemName>
-		</SourceConnectableItemReference>
-		<TargetEmbeddedObjectReference>
-			<PackageName>bank_doc1403</PackageName>
-			<ClassName>Main</ClassName>
-			<ItemName>selectOutput1</ItemName>
-		</TargetEmbeddedObjectReference>
-		<TargetConnectableItemReference>
-			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>SelectOutput</ClassName>
-			<ItemName>in</ItemName>
-		</TargetConnectableItemReference>
-		<Points>
-			<Point>
-				<X>0</X>
-				<Y>0</Y>
-			</Point>
-			<Point>
-				<X>0</X>
-				<Y>90</Y>
-			</Point>
-			<Point>
-				<X>40</X>
-				<Y>90</Y>
 			</Point>
 		</Points>
 	</Connector>
 	<Connector>
 		<Id>1749045452397</Id>
 		<Name><![CDATA[connector5]]></Name>
-		<X>590</X>
-		<Y>490</Y>
+		<X>480</X>
+		<Y>410</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -234,12 +144,12 @@
 		<SourceEmbeddedObjectReference>
 			<PackageName>bank_doc1403</PackageName>
 			<ClassName>Main</ClassName>
-			<ItemName>selectOutput1</ItemName>
+			<ItemName>selectOutput5</ItemName>
 		</SourceEmbeddedObjectReference>
 		<SourceConnectableItemReference>
 			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>SelectOutput</ClassName>
-			<ItemName>outT</ItemName>
+			<ClassName>SelectOutput5</ClassName>
+			<ItemName>out2</ItemName>
 		</SourceConnectableItemReference>
 		<TargetEmbeddedObjectReference>
 			<PackageName>bank_doc1403</PackageName>
@@ -259,6 +169,14 @@
 			<Point>
 				<X>130</X>
 				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>130</X>
+				<Y>80</Y>
+			</Point>
+			<Point>
+				<X>240</X>
+				<Y>80</Y>
 			</Point>
 		</Points>
 	</Connector>
@@ -306,10 +224,10 @@
 		</Points>
 	</Connector>
 	<Connector>
-		<Id>1749045492536</Id>
-		<Name><![CDATA[connector7]]></Name>
-		<X>720</X>
-		<Y>600</Y>
+		<Id>1749045582809</Id>
+		<Name><![CDATA[connector]]></Name>
+		<X>460</X>
+		<Y>390</Y>
 		<Label>
 			<X>10</X>
 			<Y>0</Y>
@@ -320,22 +238,22 @@
 		<SourceEmbeddedObjectReference>
 			<PackageName>bank_doc1403</PackageName>
 			<ClassName>Main</ClassName>
-			<ItemName>service2</ItemName>
+			<ItemName>selectOutput5</ItemName>
 		</SourceEmbeddedObjectReference>
 		<SourceConnectableItemReference>
 			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>Service</ClassName>
+			<ClassName>SelectOutput5</ClassName>
 			<ItemName>in</ItemName>
 		</SourceConnectableItemReference>
 		<TargetEmbeddedObjectReference>
 			<PackageName>bank_doc1403</PackageName>
 			<ClassName>Main</ClassName>
-			<ItemName>selectOutput1</ItemName>
+			<ItemName>source</ItemName>
 		</TargetEmbeddedObjectReference>
 		<TargetConnectableItemReference>
 			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
-			<ClassName>SelectOutput</ClassName>
-			<ItemName>outF</ItemName>
+			<ClassName>Source</ClassName>
+			<ItemName>out</ItemName>
 		</TargetConnectableItemReference>
 		<Points>
 			<Point>
@@ -343,12 +261,59 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>-140</X>
+				<X>-110</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1749045598744</Id>
+		<Name><![CDATA[connector4]]></Name>
+		<X>480</X>
+		<Y>470</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>bank_doc1403</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>selectOutput5</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput5</ClassName>
+			<ItemName>out5</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>bank_doc1403</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>service2</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Service</ClassName>
+			<ItemName>in</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
 				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>-140</X>
-				<Y>-100</Y>
+				<X>60</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>60</X>
+				<Y>130</Y>
+			</Point>
+			<Point>
+				<X>240</X>
+				<Y>130</Y>
 			</Point>
 		</Points>
 	</Connector>
