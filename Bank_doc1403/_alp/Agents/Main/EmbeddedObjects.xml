@@ -30,7 +30,7 @@
 			<Parameter>
 				<Name><![CDATA[rate]]></Name>
 				<Value Class="CodeUnitValue">
-					<Code><![CDATA[2]]></Code>
+					<Code><![CDATA[28]]></Code>
 					<Unit Class="RateUnits">PER_MINUTE</Unit>
 				</Value>
 			</Parameter>
