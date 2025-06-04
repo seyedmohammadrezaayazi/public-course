@@ -173,7 +173,7 @@
 		</Points>
 	</Connector>
 	<Connector>
-		<Id>1749045228534</Id>
+		<Id>1749045452395</Id>
 		<Name><![CDATA[connector4]]></Name>
 		<X>530</X>
 		<Y>400</Y>
@@ -197,6 +197,53 @@
 		<TargetEmbeddedObjectReference>
 			<PackageName>bank_doc1403</PackageName>
 			<ClassName>Main</ClassName>
+			<ItemName>selectOutput1</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput</ClassName>
+			<ItemName>in</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>0</X>
+				<Y>90</Y>
+			</Point>
+			<Point>
+				<X>40</X>
+				<Y>90</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1749045452397</Id>
+		<Name><![CDATA[connector5]]></Name>
+		<X>590</X>
+		<Y>490</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>bank_doc1403</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>selectOutput1</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput</ClassName>
+			<ItemName>outT</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>bank_doc1403</PackageName>
+			<ClassName>Main</ClassName>
 			<ItemName>service1</ItemName>
 		</TargetEmbeddedObjectReference>
 		<TargetConnectableItemReference>
@@ -210,12 +257,98 @@
 				<Y>0</Y>
 			</Point>
 			<Point>
+				<X>130</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1749045482879</Id>
+		<Name><![CDATA[connector6]]></Name>
+		<X>1060</X>
+		<Y>600</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>bank_doc1403</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>sink2</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Sink</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>bank_doc1403</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>service2</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Service</ClassName>
+			<ItemName>out</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
 				<X>0</X>
-				<Y>90</Y>
+				<Y>0</Y>
 			</Point>
 			<Point>
-				<X>190</X>
-				<Y>90</Y>
+				<X>-300</X>
+				<Y>0</Y>
+			</Point>
+		</Points>
+	</Connector>
+	<Connector>
+		<Id>1749045492536</Id>
+		<Name><![CDATA[connector7]]></Name>
+		<X>720</X>
+		<Y>600</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<SourceEmbeddedObjectReference>
+			<PackageName>bank_doc1403</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>service2</ItemName>
+		</SourceEmbeddedObjectReference>
+		<SourceConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>Service</ClassName>
+			<ItemName>in</ItemName>
+		</SourceConnectableItemReference>
+		<TargetEmbeddedObjectReference>
+			<PackageName>bank_doc1403</PackageName>
+			<ClassName>Main</ClassName>
+			<ItemName>selectOutput1</ItemName>
+		</TargetEmbeddedObjectReference>
+		<TargetConnectableItemReference>
+			<PackageName>com.anylogic.libraries.processmodeling</PackageName>
+			<ClassName>SelectOutput</ClassName>
+			<ItemName>outF</ItemName>
+		</TargetConnectableItemReference>
+		<Points>
+			<Point>
+				<X>0</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-140</X>
+				<Y>0</Y>
+			</Point>
+			<Point>
+				<X>-140</X>
+				<Y>-100</Y>
 			</Point>
 		</Points>
 	</Connector>
