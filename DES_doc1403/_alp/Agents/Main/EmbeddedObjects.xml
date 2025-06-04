@@ -26,9 +26,6 @@
 		<Parameters>
 			<Parameter>
 				<Name><![CDATA[arrivalType]]></Name>
-				<Value Class="CodeValue">
-					<Code><![CDATA[self.MANUAL]]></Code>
-				</Value>
 			</Parameter>
 			<Parameter>
 				<Name><![CDATA[rate]]></Name>
@@ -631,7 +628,7 @@
 			<Parameter>
 				<Name><![CDATA[capacity]]></Name>
 				<Value Class="CodeValue">
-					<Code><![CDATA[2]]></Code>
+					<Code><![CDATA[20]]></Code>
 				</Value>
 			</Parameter>
 			<Parameter>
