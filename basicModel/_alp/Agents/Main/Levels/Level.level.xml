@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Presentation>
+	<Control Type="EditBox">
+		<EmbeddedIcon>false</EmbeddedIcon>
+		<Id>1765091268438</Id>
+		<Name><![CDATA[editbox]]></Name>
+		<X>350</X>
+		<Y>280</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<BasicProperties Width="100" Height="30">
+			<EmbeddedIcon>false</EmbeddedIcon>
+			<FillColor>-1</FillColor>
+			<TextColor>-16777216</TextColor>
+			<Enabled>true</Enabled>
+		</BasicProperties>
+		<ExtendedProperties>
+			<Font Name="Dialog" Size="11" Style="0"/>
+			<LinkTo>true</LinkTo>
+			<Link>a</Link>
+		</ExtendedProperties>
+	</Control>
+	<Control Type="EditBox">
+		<EmbeddedIcon>false</EmbeddedIcon>
+		<Id>1765091563712</Id>
+		<Name><![CDATA[editbox1]]></Name>
+		<X>510</X>
+		<Y>280</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<BasicProperties Width="100" Height="30">
+			<EmbeddedIcon>false</EmbeddedIcon>
+			<FillColor>-1</FillColor>
+			<TextColor>-16777216</TextColor>
+			<Enabled>true</Enabled>
+		</BasicProperties>
+		<ExtendedProperties>
+			<Font Name="Dialog" Size="11" Style="0"/>
+			<LinkTo>true</LinkTo>
+			<Link>b</Link>
+		</ExtendedProperties>
+	</Control>
+	<Control Type="Slider">
+		<EmbeddedIcon>false</EmbeddedIcon>
+		<Id>1765091566649</Id>
+		<Name><![CDATA[slider]]></Name>
+		<X>690</X>
+		<Y>280</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<BasicProperties Width="100" Height="30">
+			<EmbeddedIcon>false</EmbeddedIcon>
+			<Enabled>true</Enabled>
+		</BasicProperties>
+		<ExtendedProperties>
+			<DefaultValueCode>0</DefaultValueCode>
+			<Orientation>HORIZONTAL</Orientation>
+			<MinValue>-100</MinValue>
+			<MaxValue>100</MaxValue>
+			<Step>1</Step>
+			<LinkTo>true</LinkTo>
+			<Link>c</Link>
+		</ExtendedProperties>
+	</Control>
+	<Control Type="Button">
+		<EmbeddedIcon>false</EmbeddedIcon>
+		<Id>1765091677717</Id>
+		<Name><![CDATA[button]]></Name>
+		<X>410</X>
+		<Y>370</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<BasicProperties Width="290" Height="50">
+			<EmbeddedIcon>false</EmbeddedIcon>
+			<TextColor>-16711936</TextColor>
+			<Enabled>true</Enabled>
+			<ActionCode>double delta=(b*b)-(4*a*c);
+if(delta&gt;0){
+	delta=sqrt(delta);
+	x1=(-b-delta)/(2*a);
+	x2=(-b+delta)/(2*a);
+}else{
+	traceln("معادله جواب حقیقی ندارد.");
+}</ActionCode>
+		</BasicProperties>
+		<ExtendedProperties>
+			<Font Name="B Zar" Size="26" Style="2"/>
+			<LabelText>معادله درجه دو را حل کن</LabelText>
+		</ExtendedProperties>
+	</Control>
+	<Control Type="Button">
+		<EmbeddedIcon>false</EmbeddedIcon>
+		<Id>1765092365246</Id>
+		<Name><![CDATA[button1]]></Name>
+		<X>1110</X>
+		<Y>260</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<BasicProperties Width="100" Height="30">
+			<EmbeddedIcon>false</EmbeddedIcon>
+			<TextColor>-16777216</TextColor>
+			<Enabled>true</Enabled>
+			<ActionCode>int i=1;
+double result=1;
+while(i&lt;number+1){
+	result*=i;//result=result*i;
+	i++;
+}
+
+traceln("result is: "+result);</ActionCode>
+		</BasicProperties>
+		<ExtendedProperties>
+			<Font Name="Dialog" Size="11" Style="0"/>
+			<LabelText>fact</LabelText>
+		</ExtendedProperties>
+	</Control>
+	<Control Type="EditBox">
+		<EmbeddedIcon>false</EmbeddedIcon>
+		<Id>1765092691802</Id>
+		<Name><![CDATA[editbox2]]></Name>
+		<X>1290</X>
+		<Y>180</Y>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<PublicFlag>true</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>false</ShowLabel>
+		<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
+		<BasicProperties Width="100" Height="30">
+			<EmbeddedIcon>false</EmbeddedIcon>
+			<FillColor>-1</FillColor>
+			<TextColor>-16777216</TextColor>
+			<Enabled>true</Enabled>
+		</BasicProperties>
+		<ExtendedProperties>
+			<Font Name="Dialog" Size="11" Style="0"/>
+			<LinkTo>true</LinkTo>
+			<Link>number</Link>
+		</ExtendedProperties>
+	</Control>
+</Presentation>
