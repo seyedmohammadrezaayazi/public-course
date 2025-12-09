@@ -94,6 +94,126 @@
 	<CurrentLevel>1765090232396</CurrentLevel>
 	<ConnectionsId>1765090232391</ConnectionsId>
 	<Variables xmlns:al="http://anylogic.com"/>
+	<Dependences>
+		<Link TargetId="1765174752112" Polarity="null">
+			<Height>20.0</Height>
+			<PolarityPosition>0.95</PolarityPosition>
+			<Direction>
+				<X>-100</X>
+				<Y>180</Y>
+			</Direction>
+			<Id>1765175143705</Id>
+			<Name><![CDATA[ - Alu]]></Name>
+			<X>1260</X>
+			<Y>560</Y>
+			<Label>
+				<X>40</X>
+				<Y>-50</Y>
+			</Label>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>false</ShowLabel>
+			<Color>-11832691</Color>
+			<LineWidth>1</LineWidth>
+			<Delay>false</Delay>
+		</Link>
+		<Link TargetId="1765174752112" Polarity="null">
+			<Height>20.0</Height>
+			<PolarityPosition>0.95</PolarityPosition>
+			<Direction>
+				<X>-200</X>
+				<Y>80</Y>
+			</Direction>
+			<Id>1765175149253</Id>
+			<Name><![CDATA[ - Alu]]></Name>
+			<X>1360</X>
+			<Y>660</Y>
+			<Label>
+				<X>40</X>
+				<Y>-50</Y>
+			</Label>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>false</ShowLabel>
+			<Color>-11832691</Color>
+			<LineWidth>1</LineWidth>
+			<Delay>false</Delay>
+		</Link>
+	</Dependences>
+	<Events xmlns:al="http://anylogic.com"/>
+	<Functions xmlns:al="http://anylogic.com"/>
+	<TableFunctions>
+		<TableFunction AccessType="public" StaticFunction="false">
+			<Id>1765174786034</Id>
+			<Name><![CDATA[y2]]></Name>
+			<X>1360</X>
+			<Y>660</Y>
+			<Label>
+				<X>50</X>
+				<Y>0</Y>
+			</Label>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>true</ShowLabel>
+			<InterpolationMethod>LINEAR</InterpolationMethod>
+			<OutOfRangeBehaviour>EXTRAPOLATE</OutOfRangeBehaviour>
+			<OutOfRangeCustomValue>21.0</OutOfRangeCustomValue>
+			<ApproximationOrder>1</ApproximationOrder>
+			<LoadFromDatabase>false</LoadFromDatabase>
+			<ValuesQuery>
+				<Id>1765174786032</Id>
+				<TableReference/>
+				<ArgumentColumnReference/>
+				<ValueColumnReference/>
+			</ValuesQuery>
+// arguments and values
+					<Argument>0.0</Argument>
+			<Argument>1.0</Argument>
+			<Argument>2.0</Argument>
+			<Argument>8.0</Argument>
+			<Argument>9.0</Argument>
+			<Argument>10.0</Argument>
+			<Argument>11.0</Argument>
+			<Value>0.0</Value>
+			<Value>12.0</Value>
+			<Value>13.0</Value>
+			<Value>14.0</Value>
+			<Value>16.0</Value>
+			<Value>17.0</Value>
+			<Value>20.0</Value>
+		</TableFunction>
+		<TableFunction AccessType="public" StaticFunction="false">
+			<Id>1765174789387</Id>
+			<Name><![CDATA[y1]]></Name>
+			<X>1260</X>
+			<Y>560</Y>
+			<Label>
+				<X>40</X>
+				<Y>0</Y>
+			</Label>
+			<PublicFlag>false</PublicFlag>
+			<PresentationFlag>true</PresentationFlag>
+			<ShowLabel>true</ShowLabel>
+			<InterpolationMethod>LINEAR</InterpolationMethod>
+			<OutOfRangeBehaviour>NEAREST</OutOfRangeBehaviour>
+			<OutOfRangeCustomValue>8.0</OutOfRangeCustomValue>
+			<ApproximationOrder>1</ApproximationOrder>
+			<LoadFromDatabase>false</LoadFromDatabase>
+			<ValuesQuery>
+				<Id>1765174789385</Id>
+				<TableReference/>
+				<ArgumentColumnReference/>
+				<ValueColumnReference/>
+			</ValuesQuery>
+// arguments and values
+					<Argument>1.0</Argument>
+			<Argument>2.0</Argument>
+			<Argument>5.0</Argument>
+			<Value>12.0</Value>
+			<Value>13.0</Value>
+			<Value>15.0</Value>
+		</TableFunction>
+	</TableFunctions>
 	<AgentLinks>
 		<AgentLink>
 			<Id>1765090232391</Id>

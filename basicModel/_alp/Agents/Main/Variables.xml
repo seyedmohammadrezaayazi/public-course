@@ -126,4 +126,60 @@
 			</InitialValue>
 		</Properties>
 	</Variable>
+	<Variable Class="PlainVariable">
+		<Id>1765172621597</Id>
+		<Name><![CDATA[n]]></Name>
+		<X>1570</X>
+		<Y>160</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<Properties SaveInSnapshot="true"
+              Constant="false"
+              AccessType="public"
+              StaticVariable="false">
+			<Type><![CDATA[int]]></Type>
+		</Properties>
+	</Variable>
+	<Variable Class="PlainVariable">
+		<Id>1765172628153</Id>
+		<Name><![CDATA[k]]></Name>
+		<X>1750</X>
+		<Y>160</Y>
+		<Label>
+			<X>10</X>
+			<Y>0</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<Properties SaveInSnapshot="true"
+              Constant="false"
+              AccessType="public"
+              StaticVariable="false">
+			<Type><![CDATA[int]]></Type>
+		</Properties>
+	</Variable>
+	<Variable Class="AuxVariable">
+		<Id>1765174752112</Id>
+		<Name><![CDATA[Alu]]></Name>
+		<X>1160</X>
+		<Y>740</Y>
+		<Label>
+			<X>-25</X>
+			<Y>-40</Y>
+		</Label>
+		<PublicFlag>false</PublicFlag>
+		<PresentationFlag>true</PresentationFlag>
+		<ShowLabel>true</ShowLabel>
+		<Properties External="false" Constant="false" Array="false">
+			<Formula>y1(time())+y2(time())</Formula>
+			<Value>0</Value>
+			<Color>-4073239</Color>
+		</Properties>
+	</Variable>
 </Variables>
